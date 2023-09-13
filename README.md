@@ -1,38 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ReadHub 📚
 
-## Getting Started
+ReadHub es un lugar donde los amantes de la lectura pueden descubrir nuevos
+libros, crear listas de lectura y compartir sus opiniones sobre sus lecturas
+favoritas.
 
-First, run the development server:
+[**Probar Demo**]()
+![Captura de Pantalla de la Aplicación](enlace-a-la-imagen-de-la-aplicación.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### Misión:
+
+En Mi Aplicación de Lista de Libros, creemos en el poder de los libros para
+enriquecer nuestras vidas y expandir nuestras mentes. Nuestra misión es fomentar
+la pasión por la lectura y proporcionar a los lectores una plataforma para
+explorar una amplia variedad de libros.
+
+### Características Principales:
+
+- Mostrar una amplia selección de libros.
+- Permite a los usuarios agregar libros a su lista de lectura.
+- Facilita la búsqueda y filtrado de libros por género.
+- Ofrece sincronización de estado para una experiencia personalizada.
+- Garantiza la persistencia de datos para no perder información importante.
+- Proporciona sincronización entre pestañas para una experiencia fluida.
+- Está disponible en línea para que todos los amantes de los libros puedan
+  disfrutar.
+
+## Lo que He Aprendido 👨‍💻
+
+Durante el desarrollo de esta aplicación, he adquirido valiosa experiencia en
+diversos temas, como:
+
+- Gestión centralizada y eficiente del estado de la aplicación.
+- Creación y reutilización de componentes para una interfaz de usuario
+  consistente.
+- Diseño web receptivo para una experiencia óptima en todos los dispositivos.
+- Uso de hooks personalizados para simplificar la lógica y la interacción.
+- Implementación de tecnologías modernas para una experiencia de usuario
+  excepcional.
+
+## Tecnologías Utilizadas 💻
+
+Esta aplicación se construyó utilizando las siguientes tecnologías:
+
+```javascript
+Next.js - React - Tailwind CSS
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
