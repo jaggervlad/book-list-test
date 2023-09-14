@@ -4,8 +4,8 @@ ReadHub es un lugar donde los amantes de la lectura pueden descubrir nuevos
 libros, crear listas de lectura y compartir sus opiniones sobre sus lecturas
 favoritas.
 
-[**Probar Demo**]()
-![Captura de Pantalla de la Aplicación](enlace-a-la-imagen-de-la-aplicación.jpg)
+[**Probar Demo**](https://readhub-liard.vercel.app/)
+![Captura de Pantalla de la Aplicación](https://res.cloudinary.com/seakal/image/upload/v1694710363/ucaqhpzgdcy8tz0qe4e2.png)
 
 ### Misión:
 

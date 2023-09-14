@@ -14,15 +14,21 @@ import {
 
 import { Book, Heart, Trash } from 'lucide-react';
 import { useReadListState } from '@/providers/readlist-provider';
+import { useEffect, useState } from 'react';
 
 export function ReadListSheet() {
   const { items, hasItems, removeItem } = useReadListState();
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   return (
     <Sheet>
-      <SheetTrigger asChild suppressHydrationWarning>
+      <SheetTrigger asChild>
         <Button aria-label="Lista Lectura" variant="ghost" className="relative">
-          {hasItems && (
+          {isClient && hasItems && (
             <Badge
               variant="secondary"
               className="absolute flex items-center justify-center w-6 h-6 p-2 rounded-full right-0 -top-2"
