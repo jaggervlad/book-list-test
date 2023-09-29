@@ -58,7 +58,8 @@ export const ReadListProvider = ({ children }: PropsWithChildren) => {
 
   useEffect(() => {
     setReadList(JSON.stringify(state));
-  }, [state, setReadList]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [state]);
 
   const addItem = useCallback(
     (item: Book) => {
@@ -87,7 +88,7 @@ export const ReadListProvider = ({ children }: PropsWithChildren) => {
     [state]
   );
 
-  const hasItems = useMemo(() => state.items.length > 0, [state]);
+  const hasItems = useMemo(() => state.items.length > 0, [state.items]);
 
   return (
     <ReadListStateContext.Provider

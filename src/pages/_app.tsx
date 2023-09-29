@@ -4,15 +4,18 @@ import { ThemeProvider } from '@/providers/theme-provider';
 import type { AppProps } from 'next/app';
 
 import '@/styles/globals.css';
+import { CartProvider } from '@/providers/cart-provider';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider forcedTheme="dark" attribute="class">
-      <BooksProvider>
-        <ReadListProvider>
-          <Component {...pageProps} />
-        </ReadListProvider>
-      </BooksProvider>
+      <CartProvider>
+        <BooksProvider>
+          <ReadListProvider>
+            <Component {...pageProps} />
+          </ReadListProvider>
+        </BooksProvider>
+      </CartProvider>
     </ThemeProvider>
   );
 }
